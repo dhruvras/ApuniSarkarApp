@@ -1,0 +1,19 @@
+# Backend dependencies & cache
+node_modules/
+
+# Environment (SECRETS — never commit real values)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+
+# Coverage / test artifacts
+coverage/
+.nyc_output/
